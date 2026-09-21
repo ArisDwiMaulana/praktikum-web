@@ -3,6 +3,8 @@ services:
   web:
     image: php:8.2-apache
     container_name: xampp_central_php
+    entrypoint:
+      ["sh", "-c", "docker-php-ext-install mysqli && apache2-foreground"]
     ports:
       - "80:80"
     volumes:
