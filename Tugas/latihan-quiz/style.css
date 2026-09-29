@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.container {
+    height: 90vh;
+}
+
+.card {
+    background-color: #ffffff;
+}
+
+.bulat {
+    width: 30px;
+    height: 30px;
+}
+
+.bg-dark {
+    background-color: #000000;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-cream {
+    background-color: #d8c3a5;
+}
+
+.btn-add {
+    background-color: #000000;
+    color: white;
+}
+
+.btn-add:hover,
+.btn-nav:hover {
+    background-color: #444444;
+    color: #eeeeee;
+}

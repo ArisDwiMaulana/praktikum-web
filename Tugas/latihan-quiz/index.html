@@ -10,7 +10,87 @@
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="style.css" />
     </head>
-    <body></body>
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand fw-bold">SHOES.</a>
+                <div class="">
+                    <button type="button" class="btn btn-nav">Home</button>
+                    <button type="button" class="btn btn-nav">Products</button>
+                    <button type="button" class="btn btn-nav">About</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container d-flex justify-content-center align-items-center">
+            <div
+                class="card mb-3 p-3 border-0 shadow rounded-4"
+                style="max-width: 800px"
+                id="bg-card"
+            >
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img
+                            src="shoe.avif"
+                            class="img-fluid border rounded-4"
+                            alt="Shoe"
+                            style="height: 100%; object-fit: cover"
+                        />
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <span
+                                class="fw-thin"
+                                style="color: #777777; font-size: 14px"
+                                >RUNNING SHOES</span
+                            >
+                            <h3 class="card-title mt-2">Air Runner</h3>
+                            <p
+                                class="card-text"
+                                style="font-size: 15px; color: #666666"
+                            >
+                                Sepatu ringan dan nyaman untuk digunakan saat
+                                berolahraga maupun aktivitas sehari-hari.
+                            </p>
+                            <h4 class="mb-3">Rp 899.000</h4>
+                            <h6 class="">Pilih Warna</h6>
+                            <div class="d-flex gap-2">
+                                <button
+                                    type="button"
+                                    class="bulat bg-dark border border-2 border-white rounded-circle"
+                                    onclick="klikTombolHitam()"
+                                ></button>
+                                <button
+                                    type="button"
+                                    class="bulat bg-blue border border-2 border-white rounded-circle"
+                                    onclick="klikTombolBiru()"
+                                ></button>
+                                <button
+                                    type="button"
+                                    class="bulat bg-cream border border-2 border-white rounded-circle"
+                                    onclick="klikTombolCream()"
+                                ></button>
+                            </div>
+                            <div class="d-grid gap-2 mt-3">
+                                <button
+                                    class="btn btn-add"
+                                    type="button"
+                                    onclick="
+                                        alert(
+                                            `Fitur masih belum dibuat wkkwkwkwkkwk`,
+                                        )
+                                    "
+                                >
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
     <script src="script.js"></script>
 </html>
